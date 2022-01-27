@@ -119,7 +119,7 @@ function setUpQuestion(givenQuestion, questionNumber){
 
     correctAnswer = givenQuestion.correctAnswer;
     currentQuestionNumber = questionNumber;
-    questionNumberElem.textContent = questionNumber+1+'.';
+    questionNumberElem.textContent = questionNumber+1;
 }
 
 function checkAnswer(evt) {
